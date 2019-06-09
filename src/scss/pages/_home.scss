@@ -1,0 +1,42 @@
+.mo-main-home {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr;
+  height: calc(100vh - 55px);
+  
+  .mo-home-content {
+    padding: $padding * 2;
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: $gutter * 2;
+    align-content: start;
+    overflow: auto;
+  }
+
+  .mo-home-section-expand-icon {
+    width: 1.5em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: $margin * 2;
+  }
+
+  .mo-home-section {
+    background: white;
+    padding: $big-padding;
+    position: relative;
+  }
+
+  .mo-home-input {
+    padding: $padding * 2 $padding;
+    outline: 0;
+    border: 0;
+    font-size: 0.9em;
+  }
+
+  .mo-home-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: $gutter * 2;
+  }
+}

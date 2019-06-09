@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $main-font;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  color: $gray-color;
+  user-select: none;
+
+  display: flex;
+  flex-direction: column;
+
+  min-width: 1440px;
+  height: 100vh;
+}
+
+img {
+  pointer-events: none;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: $margin 0;
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}

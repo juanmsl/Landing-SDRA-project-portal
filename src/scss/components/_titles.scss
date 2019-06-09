@@ -1,0 +1,50 @@
+
+@for $i from 1 through 6 {
+  .big-title-#{$i} {
+    font-size: 7rem - (1rem * $i);
+  }
+}
+
+.title {
+  position: relative;
+  padding-bottom: $big-padding;
+  margin-bottom: $big-margin;
+  text-align: center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    border-bottom: 1px solid;
+  }
+}
+
+.subtitle {
+  position: relative;
+  padding-bottom: $padding * 2;
+  margin-bottom: $big-margin;
+  text-align: center;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    border-bottom: 1px dotted;
+  }
+}
+
+.emphasis {
+  font-size: 1.5em;
+  margin: 0 $margin / 5;
+  text-decoration: underline;
+}
+
+.thin {
+  font-weight: lighter;
+}

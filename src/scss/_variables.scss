@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,Alegreya+Sans+SC:900');
+
+$main-font: Montserrat, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+$title-font: 'Alegreya Sans SC', sans-serif;
+
+$gutter: 10px;
+$margin: 10px;
+$padding: 10px;
+
+$big-gutter: $gutter * 4;
+$big-margin: $margin * 4;
+$big-padding: $padding * 4;
+
+$breakpoints: (
+  mobile: 540px,
+  tablet: 768px,
+  laptop: 1024px,
+  pc: 1224px,
+  large: 1824px
+);
+
+$primary-color: #e0fcac;
+$secondary-color: #8affa9;
+$third-color: #0c001d;
+
+$gray-color: #5A6978;
+$gray-light-color: #F9FAFC;
+
+$active-color: #13CE66;
+$warning-color: #FFBA5C;
+$alert-color: #F95F62;

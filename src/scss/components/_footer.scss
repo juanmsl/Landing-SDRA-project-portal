@@ -1,0 +1,12 @@
+.footer {
+  background: #444;
+  color: white;
+  padding: $padding $padding * 2;
+  font-size: 0.6em;
+  margin-top: $big-margin * 2;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

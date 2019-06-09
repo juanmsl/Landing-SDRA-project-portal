@@ -1,0 +1,53 @@
+.sdra-main-cover {
+  padding: $big-padding;
+  height: 100vh;
+  display: flex;
+
+  .sdra-main-cover-content {
+    flex-grow: 1;
+    position: relative;
+    display: grid;
+    grid-gap: $big-gutter;
+    grid-template-columns: 1fr 1fr;
+    padding: 64px 16px;
+  }
+
+  .sdra-main-cover-logosection {
+    position: relative;
+  }
+
+  .sdra-main-cover-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 10;
+    font-family: $title-font;
+    padding-right: $big-padding * 2;
+  }
+
+  .sdra-main-cover-title {
+    font-size: 7rem;
+    margin: 0;
+  }
+
+  .sdra-main-cover-subtitle {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 0;
+  }
+
+  .sdra-main-cover-text {
+    margin-top: $big-margin;
+  }
+
+  .sdra-main-cover-logo {
+    width: 100%;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    filter: blur(0px);
+  }
+}

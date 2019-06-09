@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  font-size: 0.8em;
+  grid-gap: $gutter;
+
+  li {
+    border-left: 3px solid $gray-color;
+    padding: $padding $padding * 2;
+
+    &:hover {
+      background: $gray-color;
+      color: white;
+      transform: scale(1.1);
+    }
+  }
+
+  li:nth-child(even){
+    margin-left: $margin * 2;
+  }
+}

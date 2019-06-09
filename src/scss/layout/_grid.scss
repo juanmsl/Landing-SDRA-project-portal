@@ -1,0 +1,12 @@
+@each $media, $size in $breakpoints {
+  @include from($media) {
+    @for $i from 1 through 20 {
+      .#{$media}-#{$i * 5} {
+          width: percentage($i * 5 / 100);
+      }
+    }
+    .#{$media}-auto {
+        width: auto;
+    }
+  }
+}
