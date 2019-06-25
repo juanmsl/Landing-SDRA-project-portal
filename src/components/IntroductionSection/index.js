@@ -184,9 +184,19 @@ class IntroductionSection extends React.Component {
                             <h6>Manual de instalación y uso</h6>
                         </a>
                         <a href="documents/presentacion.pdf" target="_blank" className="sdra-document">
-                            <img src="images/pdf.png" alt=""/>
+                            <img src="images/presentation.png" alt=""/>
                             <h5>Presentación</h5>
                             <h6>Presentación de la sustentación</h6>
+                        </a>
+                        <a href="documents/2d.mp4" target="_blank" className="sdra-document">
+                            <img src="images/video.png" alt=""/>
+                            <h5>Demo 2D</h5>
+                            <h6>Video de imagen en 2D</h6>
+                        </a>
+                        <a href="documents/3d.mp4" target="_blank" className="sdra-document">
+                            <img src="images/video.png" alt=""/>
+                            <h5>Demo 3D</h5>
+                            <h6>Video de imagen en 3D</h6>
                         </a>
                         <a href="https://github.com/florez-l/QuimeraTK" target="_blank" rel="noopener noreferrer" className="sdra-document">
                             <img src="images/github.png" alt=""/>
