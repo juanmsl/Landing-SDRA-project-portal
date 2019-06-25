@@ -183,10 +183,20 @@ class IntroductionSection extends React.Component {
                             <h5>Manual de usuario</h5>
                             <h6>Manual de instalación y uso</h6>
                         </a>
-                        <a href="https://github.com/florez-l/QuimeraTK" target="_blank" className="sdra-document">
+                        <a href="documents/presentacion.pdf" target="_blank" className="sdra-document">
+                            <img src="images/pdf.png" alt=""/>
+                            <h5>Presentación</h5>
+                            <h6>Presentación de la sustentación</h6>
+                        </a>
+                        <a href="https://github.com/florez-l/QuimeraTK" target="_blank" rel="noopener noreferrer" className="sdra-document">
                             <img src="images/github.png" alt=""/>
-                            <h5>Codigo</h5>
+                            <h5>QuimeraTK</h5>
                             <h6>Repositorio Github privado</h6>
+                        </a>
+                        <a href="https://github.com/juanmsl/sdra-project-portal" target="_blank" rel="noopener noreferrer" className="sdra-document">
+                            <img src="images/github.png" alt=""/>
+                            <h5>Pagina web</h5>
+                            <h6>Repositorio Github</h6>
                         </a>
                     </section>
                 </section>
